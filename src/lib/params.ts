@@ -18,6 +18,7 @@ export const NavBar = {
 	home: 'Home',
 	personal: 'Projects',
 	career: 'Experiences',
+	resume: 'Resume',
 	skills: 'Skills'
 };
 
@@ -42,35 +43,21 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Lucas',
+	name: "Hey, I'm Lucas",
 	lastName: 'Immerman',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		`Hello! I'm Lucas, a high school student with a fervent passion for technology, particularly specializing in Node.js development. When I am not immersed in coding and creating seamless, efficient back-end processes, you can find me traversing the snowy slopes, relishing the exhilarating rush skiing brings. My journey in development began at a young age, allowing me to refine my skills and develop applications that integrate seamlessly with various front-end technologies. School and learning hold paramount importance in my life, enabling me to blend academic insights with practical coding experience to develop innovative and impactful solutions.`,
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
-		{
-			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
+		{ platform: Platform.GitHub, link: 'https://github.com/loshisthebest' },
+		
 		{
 			platform: Platform.Twitter,
 			link: 'https://twitter.com/'
 		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
-		},
+
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
-		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'lucasimmerman@gmail.com'
 		}
 	]
 };
